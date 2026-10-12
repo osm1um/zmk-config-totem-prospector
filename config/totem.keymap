@@ -57,7 +57,7 @@
             bindings = <
            &kp Q       &kp D       &kp R          &kp W         &kp B        &kp J    &kp F        &kp U        &kp P       &kp SEMICOLON
            &hm LGUI A  &hm LALT S  &hm LCTRL H    &hm LSHIFT T  &kp G        &kp Y    &hm RSHFT N  &hm RCTRL E  &hm RALT O  &hm RGUI I
-&lt 3 TAB  &kp Z       &kp X       &kp M          &kp C         &kp V        &kp K    &kp L        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
+&lt 3 TAB  &kp Z       &kp X       &kp M          &kp C         &kp V        &kp K    &kp L        &kp COMMA    &kp DOT     &kp SLASH      &kp APOSTROPHE
                                    &mt LCTRL DEL  &lt 1 ESC     &kp SPACE    &kp RET  &lt 2 BSPC   &kp MINUS
             >;
         };
@@ -72,7 +72,7 @@
             >;
         };
 
-         Sym {
+        Sym {
             display-name = "Sym";
             bindings = <
                 &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT    &kp DQT
@@ -106,7 +106,7 @@
             display-name = "Game+";
             bindings = <
          &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp T    &kp RA(RC(Y))  &kp RA(RC(U))  &trans  &trans  &kp LC(RA(DEL))
-         &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp G    &kp F5         &kp F7         &trans  &trans  &kp F12
+         &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp G    &kp F5         &kp F7         &to 0   &trans  &kp F12
 &kp F10  &kp L   &kp O         &kp Y         &kp K         &to 0    &trans         &trans         &trans  &trans  &kp F22          &kp LA(F4)
                                &kp J         &kp I         &kp M    &trans         &trans         &trans
             >;
